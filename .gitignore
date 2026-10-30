@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local settings and credentials.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private captures, databases, and generated investigation exports.
+*.sqlite*
+*.db
+*.db-*
+*.pcap
+*.pcapng
+*.cap
+*.csv
+!sample.csv
+*.json
+*.html
+*.pdf
