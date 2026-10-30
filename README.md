@@ -312,3 +312,8 @@ and restore preview/confirmation/conflict behavior:
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+Copyright (c) 2026 Saida Taharima.
